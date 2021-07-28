@@ -13,7 +13,7 @@ function toggleOpen() {
 //Log e.property and see them
 function toggleActive(e) {
   console.log(e.propertyName);
-
+  //
   //Normally we can do if(e.propertyName === "flex-grow") {...}
   //But there are some difference in browser
   //Some of them includes flex property and the others have flex-grow
